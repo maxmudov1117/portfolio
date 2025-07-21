@@ -1,0 +1,244 @@
+2025-07-16 17:10:42,564 - INFO - Start polling
+2025-07-16 17:10:47,171 - INFO - Run polling for bot @backedn36_bot id=7890416134 - 'Backend_36'
+2025-07-16 17:11:25,807 - INFO - Foydalanuvchi: Bekmurod (5922081119) /start yubordi
+2025-07-16 17:11:26,221 - INFO - Update id=519826326 is handled. Duration 407 ms by bot id=7890416134
+2025-07-16 17:11:54,144 - INFO - Update id=519826327 is handled. Duration 1047 ms by bot id=7890416134
+2025-07-16 17:12:02,907 - INFO - Update id=519826328 is handled. Duration 1108 ms by bot id=7890416134
+2025-07-16 17:12:06,373 - INFO - Update id=519826329 is handled. Duration 233 ms by bot id=7890416134
+2025-07-16 17:12:07,831 - INFO - Update id=519826330 is handled. Duration 155 ms by bot id=7890416134
+2025-07-16 17:12:13,377 - INFO - CV yuborildi: Bekmurod Maxmudov, tel: +998978140117, user: 5922081119
+2025-07-16 17:12:14,728 - INFO - Update id=519826331 is handled. Duration 1358 ms by bot id=7890416134
+2025-07-16 17:12:18,354 - INFO - Update id=519826332 is handled. Duration 217 ms by bot id=7890416134
+2025-07-16 17:12:27,457 - INFO - Update id=519826333 is handled. Duration 141 ms by bot id=7890416134
+2025-07-16 17:19:21,164 - INFO - Update id=519826334 is handled. Duration 500 ms by bot id=7890416134
+2025-07-16 17:19:24,961 - INFO - Update id=519826335 is handled. Duration 16 ms by bot id=7890416134
+2025-07-16 17:19:30,585 - INFO - Update id=519826336 is handled. Duration 32 ms by bot id=7890416134
+2025-07-16 17:19:32,118 - INFO - Update id=519826337 is handled. Duration 358 ms by bot id=7890416134
+2025-07-16 17:20:05,518 - INFO - Update id=519826338 is handled. Duration 1313 ms by bot id=7890416134
+2025-07-16 17:20:10,696 - INFO - Update id=519826339 is not handled. Duration 30 ms by bot id=7890416134
+2025-07-16 17:20:10,697 - ERROR - Cause exception while process update id=519826339 by bot id=7890416134
+AttributeError: 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\user\PycharmProjects\Telegram_bot\portfolio.py", line 277, in buttons
+    elif message.text.startswith("Wikipedia:"):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2025-07-16 17:20:17,557 - INFO - Update id=519826340 is handled. Duration 375 ms by bot id=7890416134
+2025-07-16 17:20:22,581 - INFO - Update id=519826341 is handled. Duration 311 ms by bot id=7890416134
+2025-07-16 17:20:27,181 - INFO - Update id=519826342 is handled. Duration 139 ms by bot id=7890416134
+2025-07-16 17:20:37,337 - INFO - Update id=519826343 is handled. Duration 202 ms by bot id=7890416134
+2025-07-16 17:20:42,346 - INFO - Update id=519826344 is handled. Duration 282 ms by bot id=7890416134
+2025-07-16 17:20:50,801 - INFO - Update id=519826345 is handled. Duration 1188 ms by bot id=7890416134
+2025-07-16 17:21:03,207 - INFO - Update id=519826346 is handled. Duration 343 ms by bot id=7890416134
+2025-07-16 17:21:16,875 - INFO - CV yuborildi: Lazizbek Tojiboyev, tel: +998885950221, user: 1622899126
+2025-07-16 17:21:18,103 - INFO - Update id=519826347 is handled. Duration 1265 ms by bot id=7890416134
+2025-07-16 17:21:41,988 - INFO - Update id=519826348 is handled. Duration 217 ms by bot id=7890416134
+2025-07-16 17:22:00,494 - INFO - Update id=519826349 is handled. Duration 625 ms by bot id=7890416134
+2025-07-16 17:22:10,829 - INFO - Update id=519826350 is handled. Duration 311 ms by bot id=7890416134
+2025-07-16 17:22:16,206 - INFO - Update id=519826351 is handled. Duration 421 ms by bot id=7890416134
+2025-07-16 17:22:32,442 - INFO - Update id=519826352 is handled. Duration 483 ms by bot id=7890416134
+2025-07-16 17:53:26,321 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] The semaphore timeout period has expired
+2025-07-16 17:53:26,343 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7890416134)
+2025-07-16 17:53:44,998 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network connection was aborted by the local system]
+2025-07-16 17:53:45,011 - WARNING - Sleep for 1.350887 seconds and try again... (tryings = 1, bot id = 7890416134)
+2025-07-16 17:53:46,390 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:53:46,391 - WARNING - Sleep for 1.811227 seconds and try again... (tryings = 2, bot id = 7890416134)
+2025-07-16 17:53:48,754 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:53:48,755 - WARNING - Sleep for 2.429467 seconds and try again... (tryings = 3, bot id = 7890416134)
+2025-07-16 17:53:51,276 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:53:51,277 - WARNING - Sleep for 3.182542 seconds and try again... (tryings = 4, bot id = 7890416134)
+2025-07-16 17:53:54,588 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:53:54,595 - WARNING - Sleep for 4.205889 seconds and try again... (tryings = 5, bot id = 7890416134)
+2025-07-16 17:53:58,806 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:53:58,808 - WARNING - Sleep for 4.902208 seconds and try again... (tryings = 6, bot id = 7890416134)
+2025-07-16 17:54:03,736 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:03,736 - WARNING - Sleep for 4.835875 seconds and try again... (tryings = 7, bot id = 7890416134)
+2025-07-16 17:54:08,642 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:08,642 - WARNING - Sleep for 4.988182 seconds and try again... (tryings = 8, bot id = 7890416134)
+2025-07-16 17:54:13,652 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:13,652 - WARNING - Sleep for 5.161869 seconds and try again... (tryings = 9, bot id = 7890416134)
+2025-07-16 17:54:18,826 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:18,826 - WARNING - Sleep for 5.075438 seconds and try again... (tryings = 10, bot id = 7890416134)
+2025-07-16 17:54:23,911 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:23,911 - WARNING - Sleep for 4.980652 seconds and try again... (tryings = 11, bot id = 7890416134)
+2025-07-16 17:54:28,903 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:28,903 - WARNING - Sleep for 5.008617 seconds and try again... (tryings = 12, bot id = 7890416134)
+2025-07-16 17:54:33,921 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:33,921 - WARNING - Sleep for 4.819581 seconds and try again... (tryings = 13, bot id = 7890416134)
+2025-07-16 17:54:38,753 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:38,754 - WARNING - Sleep for 5.157363 seconds and try again... (tryings = 14, bot id = 7890416134)
+2025-07-16 17:54:43,930 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:43,931 - WARNING - Sleep for 5.027249 seconds and try again... (tryings = 15, bot id = 7890416134)
+2025-07-16 17:54:48,975 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:48,975 - WARNING - Sleep for 5.058792 seconds and try again... (tryings = 16, bot id = 7890416134)
+2025-07-16 17:54:54,039 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:54,040 - WARNING - Sleep for 4.924469 seconds and try again... (tryings = 17, bot id = 7890416134)
+2025-07-16 17:54:58,986 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:54:58,987 - WARNING - Sleep for 5.046563 seconds and try again... (tryings = 18, bot id = 7890416134)
+2025-07-16 17:55:04,045 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:55:04,046 - WARNING - Sleep for 5.147947 seconds and try again... (tryings = 19, bot id = 7890416134)
+2025-07-16 17:55:09,213 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:55:09,214 - WARNING - Sleep for 4.831278 seconds and try again... (tryings = 20, bot id = 7890416134)
+2025-07-16 17:55:14,057 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:55:14,058 - WARNING - Sleep for 5.098308 seconds and try again... (tryings = 21, bot id = 7890416134)
+2025-07-16 17:55:19,164 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:55:19,165 - WARNING - Sleep for 5.056102 seconds and try again... (tryings = 22, bot id = 7890416134)
+2025-07-16 17:55:24,236 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:55:24,236 - WARNING - Sleep for 5.031353 seconds and try again... (tryings = 23, bot id = 7890416134)
+2025-07-16 17:55:50,648 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-07-16 17:55:50,648 - WARNING - Sleep for 5.074864 seconds and try again... (tryings = 24, bot id = 7890416134)
+2025-07-16 17:55:59,124 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network connection was aborted by the local system]
+2025-07-16 17:55:59,138 - WARNING - Sleep for 5.071141 seconds and try again... (tryings = 25, bot id = 7890416134)
+2025-07-16 17:56:04,447 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:56:04,448 - WARNING - Sleep for 5.080886 seconds and try again... (tryings = 26, bot id = 7890416134)
+2025-07-16 17:56:09,591 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:56:09,640 - WARNING - Sleep for 4.937987 seconds and try again... (tryings = 27, bot id = 7890416134)
+2025-07-16 17:56:35,876 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The semaphore timeout period has expired]
+2025-07-16 17:56:35,876 - WARNING - Sleep for 5.010804 seconds and try again... (tryings = 28, bot id = 7890416134)
+2025-07-16 17:56:40,922 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:56:40,923 - WARNING - Sleep for 4.900264 seconds and try again... (tryings = 29, bot id = 7890416134)
+2025-07-16 17:56:45,924 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:56:45,925 - WARNING - Sleep for 4.945730 seconds and try again... (tryings = 30, bot id = 7890416134)
+2025-07-16 17:56:50,904 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:56:50,905 - WARNING - Sleep for 5.116149 seconds and try again... (tryings = 31, bot id = 7890416134)
+2025-07-16 17:56:56,058 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:56:56,059 - WARNING - Sleep for 4.967229 seconds and try again... (tryings = 32, bot id = 7890416134)
+2025-07-16 17:57:01,052 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:01,053 - WARNING - Sleep for 5.011405 seconds and try again... (tryings = 33, bot id = 7890416134)
+2025-07-16 17:57:06,123 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:06,124 - WARNING - Sleep for 4.927086 seconds and try again... (tryings = 34, bot id = 7890416134)
+2025-07-16 17:57:11,087 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:11,087 - WARNING - Sleep for 4.961039 seconds and try again... (tryings = 35, bot id = 7890416134)
+2025-07-16 17:57:16,070 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:16,071 - WARNING - Sleep for 4.911052 seconds and try again... (tryings = 36, bot id = 7890416134)
+2025-07-16 17:57:20,996 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:21,145 - WARNING - Sleep for 5.001406 seconds and try again... (tryings = 37, bot id = 7890416134)
+2025-07-16 17:57:26,157 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:26,158 - WARNING - Sleep for 4.886933 seconds and try again... (tryings = 38, bot id = 7890416134)
+2025-07-16 17:57:31,064 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:31,065 - WARNING - Sleep for 5.055658 seconds and try again... (tryings = 39, bot id = 7890416134)
+2025-07-16 17:57:36,135 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:36,136 - WARNING - Sleep for 4.888314 seconds and try again... (tryings = 40, bot id = 7890416134)
+2025-07-16 17:57:41,044 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:57:41,044 - WARNING - Sleep for 4.919923 seconds and try again... (tryings = 41, bot id = 7890416134)
+2025-07-16 17:57:59,942 - INFO - Connection established (tryings = 42, bot id = 7890416134)
+2025-07-16 17:58:34,646 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-07-16 17:58:34,646 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7890416134)
+2025-07-16 17:58:35,664 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:58:35,664 - WARNING - Sleep for 1.447596 seconds and try again... (tryings = 1, bot id = 7890416134)
+2025-07-16 17:58:37,236 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:58:37,242 - WARNING - Sleep for 2.153253 seconds and try again... (tryings = 2, bot id = 7890416134)
+2025-07-16 17:58:39,523 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:58:39,523 - WARNING - Sleep for 2.781967 seconds and try again... (tryings = 3, bot id = 7890416134)
+2025-07-16 17:58:42,359 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:58:42,359 - WARNING - Sleep for 3.679452 seconds and try again... (tryings = 4, bot id = 7890416134)
+2025-07-16 17:58:46,054 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:58:46,055 - WARNING - Sleep for 4.631216 seconds and try again... (tryings = 5, bot id = 7890416134)
+2025-07-16 17:58:50,802 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:58:50,802 - WARNING - Sleep for 4.842179 seconds and try again... (tryings = 6, bot id = 7890416134)
+2025-07-16 17:58:55,659 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:58:55,660 - WARNING - Sleep for 4.790807 seconds and try again... (tryings = 7, bot id = 7890416134)
+2025-07-16 17:59:00,468 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:00,469 - WARNING - Sleep for 5.076808 seconds and try again... (tryings = 8, bot id = 7890416134)
+2025-07-16 17:59:05,551 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:05,552 - WARNING - Sleep for 5.117524 seconds and try again... (tryings = 9, bot id = 7890416134)
+2025-07-16 17:59:10,678 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:10,678 - WARNING - Sleep for 4.761102 seconds and try again... (tryings = 10, bot id = 7890416134)
+2025-07-16 17:59:15,451 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:15,452 - WARNING - Sleep for 4.875178 seconds and try again... (tryings = 11, bot id = 7890416134)
+2025-07-16 17:59:20,338 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:20,339 - WARNING - Sleep for 5.071762 seconds and try again... (tryings = 12, bot id = 7890416134)
+2025-07-16 17:59:25,424 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:25,424 - WARNING - Sleep for 4.991531 seconds and try again... (tryings = 13, bot id = 7890416134)
+2025-07-16 17:59:30,437 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:30,438 - WARNING - Sleep for 4.827402 seconds and try again... (tryings = 14, bot id = 7890416134)
+2025-07-16 17:59:35,276 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:35,276 - WARNING - Sleep for 4.951203 seconds and try again... (tryings = 15, bot id = 7890416134)
+2025-07-16 17:59:40,248 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:40,249 - WARNING - Sleep for 5.128681 seconds and try again... (tryings = 16, bot id = 7890416134)
+2025-07-16 17:59:45,392 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:45,392 - WARNING - Sleep for 5.058222 seconds and try again... (tryings = 17, bot id = 7890416134)
+2025-07-16 17:59:50,472 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:50,473 - WARNING - Sleep for 5.024395 seconds and try again... (tryings = 18, bot id = 7890416134)
+2025-07-16 17:59:55,506 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [The network location cannot be reached. For information about network troubleshooting, see Windows Help]
+2025-07-16 17:59:55,507 - WARNING - Sleep for 4.915679 seconds and try again... (tryings = 19, bot id = 7890416134)
+2025-07-16 18:00:11,110 - INFO - Connection established (tryings = 20, bot id = 7890416134)
+2025-07-16 18:02:55,909 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 121] The semaphore timeout period has expired
+2025-07-16 18:02:55,910 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7890416134)
+2025-07-16 18:03:10,251 - INFO - Connection established (tryings = 1, bot id = 7890416134)
+2025-07-16 18:10:48,731 - INFO - Update id=519826353 is handled. Duration 906 ms by bot id=7890416134
+2025-07-16 21:59:32,615 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-07-16 21:59:32,722 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7890416134)
+2025-07-16 21:59:33,862 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 21:59:33,863 - WARNING - Sleep for 1.269749 seconds and try again... (tryings = 1, bot id = 7890416134)
+2025-07-16 21:59:35,140 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 21:59:35,141 - WARNING - Sleep for 1.611534 seconds and try again... (tryings = 2, bot id = 7890416134)
+2025-07-16 21:59:36,764 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 21:59:36,765 - WARNING - Sleep for 2.095430 seconds and try again... (tryings = 3, bot id = 7890416134)
+2025-07-16 21:59:38,869 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 21:59:38,869 - WARNING - Sleep for 2.696184 seconds and try again... (tryings = 4, bot id = 7890416134)
+2025-07-16 21:59:41,574 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 21:59:41,574 - WARNING - Sleep for 3.602258 seconds and try again... (tryings = 5, bot id = 7890416134)
+2025-07-16 21:59:45,195 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 21:59:45,196 - WARNING - Sleep for 4.658962 seconds and try again... (tryings = 6, bot id = 7890416134)
+2025-07-16 22:37:46,966 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:37:46,967 - WARNING - Sleep for 4.889086 seconds and try again... (tryings = 7, bot id = 7890416134)
+2025-07-16 22:37:51,987 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:37:51,988 - WARNING - Sleep for 5.151943 seconds and try again... (tryings = 8, bot id = 7890416134)
+2025-07-16 22:37:57,181 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:37:57,182 - WARNING - Sleep for 4.992400 seconds and try again... (tryings = 9, bot id = 7890416134)
+2025-07-16 22:38:02,187 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:38:02,187 - WARNING - Sleep for 5.021864 seconds and try again... (tryings = 10, bot id = 7890416134)
+2025-07-16 22:38:07,285 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:38:07,318 - WARNING - Sleep for 4.942809 seconds and try again... (tryings = 11, bot id = 7890416134)
+2025-07-16 22:38:12,282 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:38:12,282 - WARNING - Sleep for 4.927025 seconds and try again... (tryings = 12, bot id = 7890416134)
+2025-07-16 22:38:17,217 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:38:17,218 - WARNING - Sleep for 4.957845 seconds and try again... (tryings = 13, bot id = 7890416134)
+2025-07-16 22:38:22,248 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:38:22,249 - WARNING - Sleep for 4.977406 seconds and try again... (tryings = 14, bot id = 7890416134)
+2025-07-16 22:38:27,235 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-07-16 22:38:27,235 - WARNING - Sleep for 4.824423 seconds and try again... (tryings = 15, bot id = 7890416134)
+2025-07-16 22:38:34,777 - INFO - Connection established (tryings = 16, bot id = 7890416134)
+2025-07-16 22:38:35,366 - INFO - Update id=519826354 is handled. Duration 577 ms by bot id=7890416134
+2025-07-16 22:40:31,302 - INFO - Update id=519826355 is handled. Duration 733 ms by bot id=7890416134
+2025-07-16 22:40:32,181 - INFO - Update id=519826356 is handled. Duration 233 ms by bot id=7890416134
+2025-07-16 22:40:35,876 - INFO - Update id=519826357 is handled. Duration 188 ms by bot id=7890416134
+2025-07-16 22:40:38,713 - INFO - Update id=519826358 is handled. Duration 359 ms by bot id=7890416134
+2025-07-16 22:40:45,251 - INFO - CV yuborildi: Salom Ali, tel: +998901234567, user: 8199971165
+2025-07-16 22:40:47,251 - INFO - Update id=519826359 is handled. Duration 2016 ms by bot id=7890416134
+2025-07-16 22:40:48,922 - INFO - Update id=519826360 is handled. Duration 172 ms by bot id=7890416134
+2025-07-16 22:40:51,941 - INFO - Update id=519826361 is handled. Duration 514 ms by bot id=7890416134
+2025-07-16 23:03:48,763 - INFO - Update id=519826362 is handled. Duration 407 ms by bot id=7890416134
+2025-07-16 23:03:51,168 - INFO - Update id=519826363 is handled. Duration 172 ms by bot id=7890416134
+2025-07-16 23:03:51,898 - INFO - Update id=519826364 is handled. Duration 547 ms by bot id=7890416134
+2025-07-16 23:03:53,328 - INFO - Update id=519826365 is handled. Duration 171 ms by bot id=7890416134
+2025-07-16 23:03:58,991 - INFO - Update id=519826366 is handled. Duration 422 ms by bot id=7890416134
+2025-07-16 23:04:00,642 - INFO - Update id=519826367 is handled. Duration 375 ms by bot id=7890416134
+2025-07-16 23:20:54,748 - INFO - Polling stopped
+2025-07-16 23:20:54,788 - INFO - Polling stopped for bot @backedn36_bot id=7890416134 - 'Backend_36'
